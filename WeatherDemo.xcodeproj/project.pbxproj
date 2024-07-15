@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A02F9EA2C454194006F1098 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02F9E92C454194006F1098 /* WeatherRow.swift */; };
 		0A9D4BD52C37272F0046FADD /* WeatherDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D4BD42C37272F0046FADD /* WeatherDemoApp.swift */; };
 		0A9D4BD72C37272F0046FADD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D4BD62C37272F0046FADD /* ContentView.swift */; };
 		0A9D4BD92C3727320046FADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D4BD82C3727320046FADD /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A02F9E92C454194006F1098 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		0A9D4BD12C37272F0046FADD /* WeatherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9D4BD42C37272F0046FADD /* WeatherDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDemoApp.swift; sourceTree = "<group>"; };
 		0A9D4BD62C37272F0046FADD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A02F9E82C454180006F1098 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0A02F9E92C454194006F1098 /* WeatherRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		0A9D4BC82C37272F0046FADD = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		0A9D4BD32C37272F0046FADD /* WeatherDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0A02F9E82C454180006F1098 /* Components */,
 				0A9D4BE52C3729B90046FADD /* Views */,
 				0A9D4BE22C3728790046FADD /* Managers */,
 				0A9D4BF22C3739390046FADD /* Extensions.swift */,
@@ -142,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A9D4BCC2C37272F0046FADD /* Build configuration list for PBXProject "WeatherDemo" */;
+			buildConfigurationList = 0A9D4BCC2C37272F0046FADD /* Build configuration list for PBXProject "Hava Drumu" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,6 +194,7 @@
 				0A9D4BD72C37272F0046FADD /* ContentView.swift in Sources */,
 				0A9D4BD52C37272F0046FADD /* WeatherDemoApp.swift in Sources */,
 				0A9D4BE42C37288D0046FADD /* LocationManager.swift in Sources */,
+				0A02F9EA2C454194006F1098 /* WeatherRow.swift in Sources */,
 				0A9D4BE92C372E560046FADD /* LoadingView.swift in Sources */,
 				0A9D4BF12C37385C0046FADD /* ModelData.swift in Sources */,
 				0A9D4BED2C37370D0046FADD /* WeatherView.swift in Sources */,
@@ -373,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A9D4BCC2C37272F0046FADD /* Build configuration list for PBXProject "WeatherDemo" */ = {
+		0A9D4BCC2C37272F0046FADD /* Build configuration list for PBXProject "Hava Drumu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A9D4BDD2C3727320046FADD /* Debug */,
